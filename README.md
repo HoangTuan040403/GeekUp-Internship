@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Album & User Management – React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React-based application that displays a list of albums and users, allowing navigation between album details and user profiles. The UI is styled using Ant Design and powered by React Query for efficient data fetching and caching.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💡 Features
 
-### `npm start`
+- Display paginated album list with title, user info, and action link.
+- Show user avatars with initials and assigned background colors.
+- Clickable links to user detail pages and album detail pages.
+- Email, phone, and website rendered as actual clickable links.
+- Responsive layout using Ant Design `Table`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+| Library / Tool     | Purpose                                                             |
+|--------------------|----------------------------------------------------------------------|
+| **React**          | JavaScript library for building user interfaces                      |
+| **Ant Design**     | UI components framework used for building consistent UI              |
+| **React Router**   | For handling client-side routing                                     |
+| **React Query**    | For data fetching, caching, and updating server state in React       |
+| **Axios**          | For making HTTP requests to fetch albums and users                   |
+| **React Icons**    | For using icons like eye icon for action buttons                     |
+| **Create React App** | Boilerplate tool for bootstrapping the React application            |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/HoangTuan040403/GeekUp-Internship.git
+cd album-user-app
+npm i
+npm start
+The app will run locally at:
+http://localhost:3000
