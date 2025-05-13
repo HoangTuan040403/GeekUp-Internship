@@ -32,27 +32,30 @@ export default function MainPage() {
                 breakpoint="md"
                 style={{ background: '#fff', borderRight: 'none' }}
             >
-                <div
-                    className="logo"
-                    style={{
-                        display: 'flex',
-                        justifyContent: 'start',
-                        alignItems: 'center',
-                        height: 64,
-                        transition: 'all 0.3s ease',
-                        padding: collapsed ? 0 : '10px 16px',
-                    }}
-                >
-                    <img
-                        src="https://geekup.vn/Icons/geekup-logo-general.svg"
-                        alt="GEEKUP company logo"
+
+                <Link to="/albums" style={{ textDecoration: 'none' }}>
+                    <div
+                        className="logo"
                         style={{
-                            width: 100,
+                            display: 'flex',
+                            alignItems: 'center',
+                            height: 64,
+                            padding: collapsed ? 0 : '10px 16px',
                             transition: 'all 0.3s ease',
-                            objectFit: 'contain',
                         }}
-                    />
-                </div>
+                    >
+                        <img
+                            src="https://geekup.vn/Icons/geekup-logo-general.svg"
+                            alt="GEEKUP company logo"
+                            style={{
+                                width: 100,
+                                objectFit: 'contain',
+                                transition: 'all 0.3s ease',
+                            }}
+                        />
+                    </div>
+                </Link>
+
 
                 <Menu
                     theme="light"

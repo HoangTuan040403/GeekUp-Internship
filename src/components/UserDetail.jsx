@@ -28,7 +28,7 @@ export default function UserDetail() {
 
     const user = users?.data?.find(u => u.id === Number(id));
 
-    // Filter albums to only show the ones that belong to the current user
+   
     const userAlbums = albums?.data?.filter(album => album.userId === Number(id));
 
     const avatarColor = user ? avatarColors[(user.id - 1) % avatarColors.length] : '#ccc';

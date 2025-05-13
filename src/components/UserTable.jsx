@@ -11,13 +11,13 @@ export default function AlbumTable() {
         queryFn: getUsers,
     });
 
-    // Avatar colors array for rendering
+   
     const avatarColors = [
         '#e73c61', '#EEEEEE', '#065488', '#6600CC', '#f39c12',
         '#777373', '#2e92cc', '#7b1abc', '#ddc1eb', '#ecb9a2'
     ];
 
-    // Columns definition for the table
+
     const columns = [
         { title: 'ID', dataIndex: 'id', key: 'id', width: 60 },
         {
@@ -45,13 +45,13 @@ export default function AlbumTable() {
             title: 'Email',
             dataIndex: 'email',
             key: 'email',
-            render: (email) => <a href={`mailto:${email}`}>{email}</a>, // Make email clickable
+            render: (email) => <a href={`mailto:${email}`}>{email}</a>, 
         },
         {
             title: 'Phone',
             dataIndex: 'phone',
             key: 'phone',
-            render: (phone) => <a href={`tel:${phone}`}>{phone}</a>, // Make phone clickable
+            render: (phone) => <a href={`tel:${phone}`}>{phone}</a>, 
         },
         {
             title: 'Website',
@@ -60,7 +60,7 @@ export default function AlbumTable() {
             render: (website) => (
                 <a href={`http://${website}`} target="_blank" rel="noopener noreferrer">
                     {website}
-                </a> // Make website clickable
+                </a> 
             ),
         },
         {

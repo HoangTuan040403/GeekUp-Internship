@@ -118,7 +118,7 @@ export default function AlbumTable() {
                 rowKey="id"
                 pagination={false}
                 style={{ background: '#fff' }}
-                scroll={{ x: 'max-content' }}  // Ensure horizontal scrolling for wide content
+                scroll={{ x: 'max-content' }}  
             />
 
             <div style={{ display: 'flex', justifyContent: 'end', marginTop: 16 }}>
